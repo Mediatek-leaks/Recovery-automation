@@ -74,7 +74,7 @@ jobs:
          repo_token: "${{ secrets.GITHUB_TOKEN }}"
          automatic_release_tag: "latest"
          prerelease: false
-         title: "Recovery Automation By Area69Lab"
+         title: "OFRP Recovery RMX2151"
          files: |
             /home/runner/work/out/target/product/*/*.zip
             /home/runner/work/out/target/product/*/*.img
