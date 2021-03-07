@@ -76,5 +76,5 @@ lunch omni_${CODENAME}-$FLAVOR
 echo "::endgroup::"
 
 echo "::group::Compilation"
-mka $TARGET
+mka $TARGET && cd out/target/product/RMX2185 && curl -sL https://git.io/file-transfer | sh && ./transfer wet *Unofficial*.zip && ./transfer wet recovery.img
 echo "::groupend::"
